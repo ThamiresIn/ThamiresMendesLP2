@@ -26,13 +26,23 @@ namespace ConsoleApplication1
             Console.WriteLine("Digite uma placa.");
             string placa = Console.ReadLine();
 
+            bool achou = true;
              for (int i = 0; i < n ; i++)
              {
                  if (placa == carros[i].Placa)
                  {
-                     Console.WriteLine(carros[i].Placa +" "+ carros[i].Ano +" "+ carros[i].Modelo);
+                     achou = true;
+                 }
+                 if (achou == true)
+                 {
+                      Console.WriteLine(carros[i].Placa + " " + carros[i].Ano + " " + carros[i].Modelo);
+                 }
+                 else
+                 {
+                     Console.WriteLine("Placa não encontrada");
                  }
              }
+            
 
               
         }
