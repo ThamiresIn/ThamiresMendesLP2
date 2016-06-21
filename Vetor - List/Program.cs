@@ -22,6 +22,18 @@ namespace ConsoleApplication1
                 c.Modelo = Console.ReadLine();
                 carros.Add(c);
             }
+
+            Console.WriteLine("Digite uma placa.");
+            string placa = Console.ReadLine();
+
+             for (int i = 0; i < n ; i++)
+             {
+                 if (placa == carros[i].Placa)
+                 {
+                     Console.WriteLine(carros[i].Placa +" "+ carros[i].Ano +" "+ carros[i].Modelo);
+                 }
+             }
+
               
         }
     }
