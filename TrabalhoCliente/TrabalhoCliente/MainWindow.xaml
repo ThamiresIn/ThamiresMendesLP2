@@ -1,0 +1,16 @@
+﻿<Window x:Class="TrabalhoCliente.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TrabalhoCliente"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="546.044" Width="931">
+    <Grid>
+        <Button x:Name="Cadastrar" Content="Cadastrar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="192" Margin="31,228,0,0" Height="55" Click="Cadastrar_Click"/>
+        <Button x:Name="Consultar" Content="Consultar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="192" Margin="253,228,0,0" Height="55"/>
+        <Button x:Name="Alterar" Content="Alterar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="192" Margin="481,228,0,0" Height="55"/>
+        <Button x:Name="Excluir" Content="Excluir" HorizontalAlignment="Left" VerticalAlignment="Top" Width="192" Margin="698,228,-86,0" Height="55"/>
+
+    </Grid>
+</Window>
